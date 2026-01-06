@@ -8,9 +8,6 @@ const addNumbers = (a, b) => {
 /// Short version of function using arrow function syntax
 const add = (a, b) => a + b;
 
-/// Single parameter arrow function
-const greet = name => "Hello" + name;
-
 /// No parameter arrow function
 const hi = () => "Hi there!";
 
