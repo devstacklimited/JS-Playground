@@ -10,10 +10,10 @@ const user = {
 }
 
 /// Accessing object properties
-console.log(user.name);
-console.log(user.age);
-console.log(user.isLoggedIn);
-console.log(user.lastLoginDays);
+console.log("User name is " + user.name);
+console.log("User age is " + user.age);
+console.log("Is user logged in? " + user.isLoggedIn);
+console.log("Last login days are " + user.lastLoginDays.join(", "));
 
 /// Modifying object properties
 user.age = 28;
