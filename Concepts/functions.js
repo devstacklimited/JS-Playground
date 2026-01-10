@@ -28,3 +28,9 @@ const divide = (a, b) => a / b;
 const divideNumbers = (a, b) => {
     return a / b;
 }
+
+// Testing the functions
+console.log("Addition: " + addNumbers(10, 3));
+console.log("Substraction: " + substractNumbers(10, 3));
+console.log("Multiplication: " + multiplyNumbers(10, 3));
+console.log("Division: " + divideNumbers(10, 3));
